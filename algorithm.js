@@ -1,4 +1,4 @@
-function getDayName() {
-   return 'проверка связи'
+function getDayName (day) {
+   return day
 }
-console.log(getDayName());
+console.log(getDayName())
