@@ -5,7 +5,8 @@ function getDayName (day) {
    
 
    if(day > 0 && day < 8) {
-      return 'все верно'
+      let days = ['понедельник','вторник','среда','четверг','пятница','суббота','воскресенье']
+   return days
    }
 
    else {
@@ -14,4 +15,4 @@ function getDayName (day) {
 
 
 }
- console.log(getDayName(5))
+ console.log(getDayName(4))
